@@ -6,8 +6,12 @@ class App < Sinatra::Base
     "My name is Jamil"
   end
   
-  get '/' do
-    ""
+  get '/hometown' do
+    "Queens"
+  end
+  
+  get '/favorite-song' do
+    "Radioactive"
   end
   
 end
